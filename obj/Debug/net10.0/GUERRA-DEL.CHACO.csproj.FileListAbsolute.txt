@@ -1,0 +1,16 @@
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\bin\Debug\net10.0\GUERRA-DEL.CHACO.exe
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\bin\Debug\net10.0\GUERRA-DEL.CHACO.deps.json
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\bin\Debug\net10.0\GUERRA-DEL.CHACO.runtimeconfig.json
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\bin\Debug\net10.0\GUERRA-DEL.CHACO.dll
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\bin\Debug\net10.0\GUERRA-DEL.CHACO.pdb
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.AssemblyInfoInputs.cache
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.AssemblyInfo.cs
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.csproj.CoreCompileInputs.cache
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.sourcelink.json
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.dll
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\refint\GUERRA-DEL.CHACO.dll
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.pdb
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-DEL.CHACO.genruntimeconfig.cache
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\ref\GUERRA-DEL.CHACO.dll
+C:\Users\JHOVANA\OneDrive\Desktop\GUERRA-DEL.CHACO\GUERRA-DEL.CHACO\obj\Debug\net10.0\GUERRA-D.4BCD46BD.Up2Date

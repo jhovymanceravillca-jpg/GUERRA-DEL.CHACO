@@ -1,0 +1,133 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace GUERRA_DEL.CHACO
+{
+    internal class Ejerciciogdc
+    {
+        public static void Main(string[] args)
+        {
+            const string GUERRA = "GUERRA DEL CHACO";
+            const int ANIO_INICIO = 1932;
+            const int ANIO_FIN = 1935;
+            const int DIAS_SITIO = 20;
+            const double RACION_LITROS = 2.5;
+            const int LITROS_POR_TRAMO = 12;
+            const int KM_POR_TRAMO = 25;
+            const int KM_DESTINO = 150;
+
+            int bolivianos = 250000;
+            int paraguayos = 150000;
+            int totalMovilizados = bolivianos + paraguayos;
+            int diferenciaTropas = bolivianos - paraguayos;
+            int duracionGuerra = ANIO_FIN - ANIO_INICIO;
+            int soldadosFortin = 120;
+            double totalAgua = RACION_LITROS * soldadosFortin;
+
+            Console.WriteLine("=======================================");
+            Console.WriteLine(GUERRA);
+            Console.WriteLine("=======================================");
+            Console.WriteLine("Periodo       : " + ANIO_INICIO + " - " + ANIO_FIN + " (" + duracionGuerra + " anios)");
+            Console.WriteLine("Movilizados   : " + totalMovilizados + " soldados");
+            Console.WriteLine("Diferencia    : " + diferenciaTropas + " a favor de Bolivia");
+            Console.WriteLine("Agua necesaria: " + totalAgua + " litros/dia para " + soldadosFortin + " hombres");
+            Console.WriteLine("=======================================");
+
+            int opcionMenu;
+
+            do
+            {
+                Console.WriteLine("\n=== MENU DE COMANDO ===");
+                Console.WriteLine("1. Enviar convoy de abastecimiento (while)");
+                Console.WriteLine("2. Simular sitio de Boqueron (for)");
+                Console.WriteLine("3. Dibujar mapa de trincheras (for anidado)");
+                Console.WriteLine("4. Salir");
+                Console.Write("Seleccione una opcion: ");
+                opcionMenu = int.Parse(Console.ReadLine());
+
+                if (opcionMenu == 1)
+                {
+                    int combustible = 90;
+                    int km = 0;
+                    Console.WriteLine("\nINICIANDO CONVOY HACIA EL FRENTE...");
+                    
+                    while (combustible >= LITROS_POR_TRAMO && km < KM_DESTINO)
+                    {
+                        combustible = combustible - LITROS_POR_TRAMO;
+                        km = km + KM_POR_TRAMO;
+                        Console.WriteLine("Avance -> Km " + km + " | Combustible " + combustible);
+                    }
+
+                    if (km >= KM_DESTINO)
+                    {
+                        Console.WriteLine("CONVOY: Llego a destino con exito.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("CONVOY: Varado en el km " + km);
+                    }
+                }
+                else if (opcionMenu == 2)
+                {
+                    Console.WriteLine("\nSITIO DE BOQUERON - " + DIAS_SITIO + " DIAS");
+                    int totalBajas = 0;
+                    
+                    for (int dia = 1; dia <= DIAS_SITIO; dia = dia + 1)
+                    {
+                        int temperatura = 30 + (dia % 4) * 5;
+                        string alerta;
+                        
+                        if (temperatura >= 45)
+                        {
+                            alerta = "CALOR EXTREMO";
+                        }
+                        else if (temperatura >= 35)
+                        {
+                            alerta = "CALOR INTENSO";
+                        }
+                        else
+                        {
+                            alerta = "CALOR MODERADO";
+                        }
+
+                        int bajasDia = 20 + (dia % 3) * 10;
+                        totalBajas = totalBajas + bajasDia;
+                        
+                        Console.WriteLine("Dia " + dia + " | Temp: " + temperatura + " (" + alerta + ") | Bajas: " + bajasDia);
+                    }
+                    
+                    Console.WriteLine("Total bajas acumuladas: " + totalBajas);
+                }
+                else if (opcionMenu == 3)
+                {
+                    Console.WriteLine("\nMAPA DE TRINCHERAS (X = Parapeto, . = Tierra)");
+                    
+                    for (int fila = 1; fila <= 5; fila = fila + 1)
+                    {
+                        for (int columna = 1; columna <= 5; columna = columna + 1)
+                        {
+                            if (fila == columna)
+                            {
+                                Console.Write(" X ");
+                            }
+                            else
+                            {
+                                Console.Write(" . ");
+                            }
+                        }
+                        Console.WriteLine();
+                    }
+                }
+                else if (opcionMenu == 4)
+                {
+                    Console.WriteLine("Cerrando archivo de campania...");
+                }
+                else
+                {
+                    Console.WriteLine("Opcion invalida. Intente de nuevo.");
+                }
+            } while (opcionMenu != 4);
+        }
+    }
+}
