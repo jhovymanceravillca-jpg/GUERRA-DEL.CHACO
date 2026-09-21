@@ -10,7 +10,7 @@ namespace ProgramacionII.GuerraDelChaco
             const int ANIO_INICIO = 1932;
             const int ANIO_FIN = 1935;
             const int DIAS_SITIO = 20;
-            const double RACION_LITROS = 3.5;
+            const double RACION_LITROS = 2.5;
             const int LITROS_POR_TRAMO = 12;
             const int KM_POR_TRAMO = 25;
             const int KM_DESTINO = 150;

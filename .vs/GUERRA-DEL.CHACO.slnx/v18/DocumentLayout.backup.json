@@ -18,16 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +28,7 @@
               "RelativeDocumentMoniker": "Ejerciciogdc.cs",
               "ToolTip": "C:\\Users\\JHOVANA\\OneDrive\\Desktop\\GUERRA-DEL.CHACO\\GUERRA-DEL.CHACO\\Ejerciciogdc.cs",
               "RelativeToolTip": "Ejerciciogdc.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwIIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-20T20:47:49.772Z",
               "EditorCaption": ""
@@ -51,8 +43,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T20:45:32.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T20:45:32.728Z"
             }
           ]
         }

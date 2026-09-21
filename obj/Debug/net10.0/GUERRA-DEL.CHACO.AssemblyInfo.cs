@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GUERRA-DEL.CHACO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf690094fd0c2e288a5371e974937ba1eb4545c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a77fdda9f1c60dd35c715a5008ba27451a8d110")]
 [assembly: System.Reflection.AssemblyProductAttribute("GUERRA-DEL.CHACO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GUERRA-DEL.CHACO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
